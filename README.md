@@ -1,8 +1,5 @@
-# React + Vite
+# Ando Designs (React Edition)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A complete rework of my portfolio site. To truly practice React, I rewrote my entire portfolio into React. I would like to say though, this is really just partially React.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To be able to generate an entire site through only data is pretty cool!
