@@ -1,6 +1,6 @@
 import './InfoBar.css';
 
-export default function InfoBar({title, date, status, link, git, selected}) {
+export default function InfoBar({title, dateCreated, status, link, git, selected}) {
     let colorStatus = false;
     if(status === "MAINTAINED"){
         colorStatus = true;
@@ -10,7 +10,7 @@ export default function InfoBar({title, date, status, link, git, selected}) {
         <>
             <div className='title-card' id='top'>
                 <h1>{title}</h1>
-                <p>{date}</p>
+                <p>{dateCreated}</p>
                 {colorStatus
                 ? <p className='status'>{status}</p>
                 : <p className='status' style={{backgroundColor:"darkred"}}>{status}</p>

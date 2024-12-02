@@ -13,28 +13,28 @@ export default function NavPanel({selected}) {
                     I will try to provide documentation on how each website was created as well.
                 </p>
                 {selected === "LATEST"
-                ?   <a className='button selected' href='./index.html'>
+                ?   <a className='button selected' href='/index.html'>
                         LATEST
                     </a>
-                :   <a className='button' href='./index.html'>
+                :   <a className='button' href='/index.html'>
                         LATEST
                     </a>
                 }
 
                 {selected === "WEBSITES"
-                ?   <a className='button selected' href='./index.html'>
+                ?   <a className='button selected' href='/websites.html'>
                         WEBSITES
                     </a>
-                :   <a className='button' href='./index.html'>
+                :   <a className='button' href='/websites.html'>
                         WEBSITES
                     </a>
                 }
 
                 {selected === "ABOUT"
-                ?   <a className='button selected' href='./index.html'>
+                ?   <a className='button selected' href='/index.html'>
                         ABOUT
                     </a>
-                :   <a className='button' href='./index.html'>
+                :   <a className='button' href='/index.html'>
                         ABOUT
                     </a>
                 }
