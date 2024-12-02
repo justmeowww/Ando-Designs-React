@@ -1,5 +1,6 @@
 import andoPhotography from '/banners/ando-photography.png';
 import andoPhotography2 from '/previews/ando-photography.jpg';
+import andoDesigns from '/banners/ando-designs.png';
 import andoDesignsDeprec from '/banners/ando-designs-deprec.png';
 import reactFacts from '/banners/react-facts.png';
 import airbnbClone from '/banners/airbnb-clone.png';
@@ -70,5 +71,20 @@ export default [
         It is a simple AirBnb clone that uses data from another JavaScript file to create a grid.
         `,
         frameworks: "React, Vite"
-    }
+    },
+    {
+        id: 4,
+        title: "Ando Portfolio",
+        dateCreated: "2024.12.01",
+        status: "MAINTAINED",
+        banner: andoDesigns,
+        preview: andoPhotography2,
+        link: "https://kaleidoscopic-crisp-a1aa49.netlify.app/",
+        git: "https://github.com/justmeowww/Airbnb-Clone/",
+        description: `
+        This website was created while learning how React props are made. 
+        It is a simple AirBnb clone that uses data from another JavaScript file to create a grid.
+        `,
+        frameworks: "React, Vite"
+    },
 ]
