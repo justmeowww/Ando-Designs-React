@@ -16,7 +16,7 @@ export default function NavPanel({selected}) {
                 ?   <a className='button selected' href='/index'>
                         LATEST
                     </a>
-                :   <a className='button' href='/index'>
+                :   <a className='button' href='/index#top'>
                         LATEST
                     </a>
                 }

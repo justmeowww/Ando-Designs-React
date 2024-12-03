@@ -102,10 +102,21 @@
     font-size: 32px;
     color: var(--hdcolor);
     margin-bottom: 8px;
+    margin-top: 60px;
+}
+
+.documentation-card h2 {
+    font-size: 16px;
+    color: var(--hdcolor);
+    margin-bottom: 8px;
 }
 
 .documentation-card p {
     margin: 8px 0;
+}
+
+h1.first-header {
+    margin-top: 0px;
 }
 
 .wireframe {
@@ -119,8 +130,41 @@ figcaption {
     margin: 8px;
 }
 
+.code {
+    overflow-x: scroll;
+    background-color: var(--ftcolor);
+    width: 100%;
+    margin: 10px 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+code {
+    color: var(--bgcolor);
+}
+
+.slideshow {
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+    margin-bottom: 10px;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+}
+
+.slideshow img {
+    width: 40vw;
+    margin: 0px 5px;
+    scroll-snap-align: start;
+}
+
 @media screen and (max-width:800px) {
     .title-card {
+        width: 400px;
+    }
+
+    .documentation-card {
         width: 400px;
     }
 

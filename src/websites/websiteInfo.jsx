@@ -30,10 +30,10 @@ export default [
         title: "Ando Designs (Deprecated)",
         dateCreated: "2024.10.27",
         year: 2024,
-        status: "DEPRACATED",
+        status: "UNMAINTAINED",
         banner: andoDesignsDeprec,
         preview: "",
-        link: "https://andoportfolio.com/",
+        link: "https://ando-designs.netlify.app/",
         git: "https://github.com/justmeowww/Ando-Designs",
         folderDir: "ando-designs-deprec",
         description: `It is this very website that is dedicated to showcase all my other websites I've designed and created. It is more of a central hub to make it easier for clients to find my works easily because of its organization.
@@ -76,7 +76,7 @@ export default [
     },
     {
         id: 4,
-        title: "Ando Designs (React)",
+        title: "Ando Designs",
         dateCreated: "2024.12.03",
         year: 2024,
         status: "MAINTAINED",
@@ -84,7 +84,7 @@ export default [
         preview: "",
         link: "https://andoportfolio.com/",
         git: "https://github.com/justmeowww/Ando-Designs-React",
-        folderDir: "ando-designs-react",
+        folderDir: "ando-designs",
         description: `A complete overhaul of my Portfolio site. This was done to fully learn React and all of its functions. Although, the main things I used from React are components and one data sheet. 
         
         With this one data sheet, I was able to generate multiple pages to showcase my websites. Sadly, there are some hard-coded data only in the documentation pages. I had to hard-code them because each page is vastly different from each other.

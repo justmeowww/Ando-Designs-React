@@ -30,3 +30,9 @@ body {
 .inline-link {
   color: var(--hdcolor);
 }
+
+.inline-code {
+  color: var(--ftcolor);
+  background-color: var(--bgcolor);
+  padding: 2px;
+}

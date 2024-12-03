@@ -5,7 +5,7 @@ export default function WebsiteCard({title, dateCreated, banner, folderDir}){
         <>
             <a href={`/websites/${folderDir}/summary`}>
                 <img src={banner}/>
-                <div class="overlay">
+                <div className="overlay">
                     <div>
                         <h1>{title}</h1>
                         <p>{dateCreated}</p>                         
