@@ -88,6 +88,37 @@
     transition: background-color 200ms ease-in;
 }
 
+.documentation-card {
+    background-color: var(--uicolor);
+    width: 60vw;
+    height: auto;
+    padding: 60px 60px;
+    margin: 30px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px 0px rgba(0,0,0,.05);
+}
+
+.documentation-card h1 {
+    font-size: 32px;
+    color: var(--hdcolor);
+    margin-bottom: 8px;
+}
+
+.documentation-card p {
+    margin: 8px 0;
+}
+
+.wireframe {
+    width: 100%;
+}
+
+figcaption {
+    font-style: italic;
+    text-align: center;
+    font-size: 12px;
+    margin: 8px;
+}
+
 @media screen and (max-width:800px) {
     .title-card {
         width: 400px;

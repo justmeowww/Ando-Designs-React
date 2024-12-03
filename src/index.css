@@ -27,3 +27,6 @@ body {
   flex-wrap: wrap;
 }
 
+.inline-link {
+  color: var(--hdcolor);
+}

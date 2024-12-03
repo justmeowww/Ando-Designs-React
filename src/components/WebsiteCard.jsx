@@ -3,7 +3,7 @@ import './WebsitesGrid.css';
 export default function WebsiteCard({title, dateCreated, banner, folderDir}){
     return(
         <>
-            <a href={`/websites/${folderDir}/summary.html`}>
+            <a href={`/websites/${folderDir}/summary`}>
                 <img src={banner}/>
                 <div class="overlay">
                     <div>

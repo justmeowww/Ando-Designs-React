@@ -12,25 +12,25 @@ export default function InfoBar({title, dateCreated, status, link, git, selected
                 <h1>{title}</h1>
                 <p>{dateCreated}</p>
                 {colorStatus
-                ? <p className='status'>{status}</p>
-                : <p className='status' style={{backgroundColor:"darkred"}}>{status}</p>
+                ? status && <p className='status'>{status}</p>
+                : status && <p className='status' style={{backgroundColor:"darkred"}}>{status}</p>
                 }
             </div>
             <div className='info-bar'>
                 {selected === "SUMMARY"
-                ?   <a className='info-button selected' href='./index.html'>
+                ?   <a className='info-button selected' href='/index'>
                         SUMMARY
                     </a>
-                :   <a className='info-button' href='./index.html'>
+                :   <a className='info-button' href='/index'>
                         SUMMARY
                     </a>
                 }
 
                 {selected === "DOCUMENTATION"
-                ?   <a className='info-button selected' href='./index.html'>
+                ?   <a className='info-button selected' href='./documentation'>
                         DOCUMENTATION
                     </a>
-                :   <a className='info-button' href='./index.html'>
+                :   <a className='info-button' href='./documentation'>
                         DOCUMENTATION
                     </a>
                 }
