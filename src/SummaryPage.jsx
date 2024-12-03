@@ -3,7 +3,7 @@ import InfoBar from './components/InfoBar.jsx';
 import Summary from './components/Summary.jsx';
 import websiteData from './websites/websiteInfo.jsx';
 
-export default function SummaryPage({websiteID, selected}) {
+export default function SummaryPage({websiteID, selected, isLatest}) {
   return (
     <>
       <div>

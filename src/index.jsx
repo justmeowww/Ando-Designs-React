@@ -4,7 +4,7 @@ import './index.css';
 import SummaryPage from './SummaryPage.jsx';
 import websiteData from './websites/websiteInfo.jsx';
 import WebsitesPage from './WebsitesPage.jsx';
-import { BrowserRouter, Route, Routes } from 'react-router';
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router';
 import AndoPhotography from './websites/AndoPhotography.jsx';
 import AndoDesignsDeprec from './websites/AndoDesignsDeprec.jsx';
 import ReactFacts from './websites/ReactFacts.jsx';
@@ -20,9 +20,11 @@ const websiteSummary = websiteData.map( x => {
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
     <Routes>
-    <Route path="/" element={<SummaryPage websiteID={websiteData[websiteData.length-1].id} selected="LATEST"/>}/>
+      <Route path="/" element={<SummaryPage websiteID={websiteData[websiteData.length-1].id} selected="LATEST"/>}/>
       <Route path="/index" element={<SummaryPage websiteID={websiteData[websiteData.length-1].id} selected="LATEST"/>}/>
       <Route path="/websites" element={<WebsitesPage/>}/>
+      <Route path="/summary" element={<Navigate to={`/websites/${websiteData[websiteData.length-1].folderDir}/summary`}/>}/>
+      <Route path="/documentation" element={<Navigate to={`/websites/${websiteData[websiteData.length-1].folderDir}/documentation`}/>}/>
       {websiteSummary}
       <Route path={`/websites/ando-photography/documentation`} element={<AndoPhotography/>}/>
       <Route path={`/websites/ando-designs-deprec/documentation`} element={<AndoDesignsDeprec/>}/>

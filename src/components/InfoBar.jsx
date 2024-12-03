@@ -18,10 +18,10 @@ export default function InfoBar({title, dateCreated, status, link, git, selected
             </div>
             <div className='info-bar'>
                 {selected === "SUMMARY"
-                ?   <a className='info-button selected' href='/index'>
+                ?   <a className='info-button selected' href='./summary'>
                         SUMMARY
                     </a>
-                :   <a className='info-button' href='/index'>
+                :   <a className='info-button' href='./summary'>
                         SUMMARY
                     </a>
                 }
