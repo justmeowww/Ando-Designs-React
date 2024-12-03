@@ -1,12 +1,12 @@
 import NavPanel from "./components/NavPanel";
 import InfoBar from "./components/InfoBar";
 import websiteData from "./websites/websiteInfo";
-import AndoPhotography from './websites/AndoPhotography';
-import AirBnbClone from './websites/AirBnbClone';
 import NoDoc from "./websites/NoDoc";
-import './components/InfoBar.css';
+import AndoPhotography from './websites/AndoPhotography';
 import AndoDesignsDeprec from "./websites/AndoDesignsDeprec";
 import ReactFacts from "./websites/ReactFacts";
+import AirBnbClone from './websites/AirBnbClone';
+import AndoDesigns from "./websites/AndoDesigns";
 
 function docPage(websiteID){
     switch(websiteID) {
@@ -18,12 +18,12 @@ function docPage(websiteID){
             return(<ReactFacts/>)
         case 3:
             return(<AirBnbClone/>)
+        case 4:
+            return(<AndoDesigns/>)
         default:
             return(<NoDoc/>)
     }
 }
-
-
 
 export default function DocumentationPage({isLatest, websiteID}){
 

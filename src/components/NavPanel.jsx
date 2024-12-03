@@ -1,5 +1,4 @@
 import Logo from '/andoDesignsLogo.png';
-import './NavPanel.css'
 
 export default function NavPanel({selected}) {
     return(
@@ -31,10 +30,10 @@ export default function NavPanel({selected}) {
                 }
 
                 {selected === "ABOUT"
-                ?   <a className='button selected' href='/index'>
+                ?   <a className='button selected' href='/about'>
                         ABOUT
                     </a>
-                :   <a className='button' href='/index'>
+                :   <a className='button' href='/about'>
                         ABOUT
                     </a>
                 }

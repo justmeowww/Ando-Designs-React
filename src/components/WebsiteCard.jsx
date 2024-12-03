@@ -1,5 +1,3 @@
-import './WebsitesGrid.css';
-
 export default function WebsiteCard({title, dateCreated, banner, folderDir}){
     return(
         <>

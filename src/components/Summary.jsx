@@ -1,5 +1,3 @@
-import './Summary.css';
-
 export default function Summary({preview, description, frameworks}){
     return(
         <>

@@ -1,5 +1,3 @@
-import './InfoBar.css';
-
 export default function InfoBar({title, dateCreated, status, link, git, selected}) {
     let colorStatus = false;
     if(status === "MAINTAINED"){

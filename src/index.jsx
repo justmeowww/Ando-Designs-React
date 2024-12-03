@@ -6,6 +6,7 @@ import DocumentationPage from './DocumentationPage.jsx';
 import websiteData from './websites/websiteInfo.jsx';
 import WebsitesPage from './WebsitesPage.jsx';
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router';
+import AboutPage from './AboutPage.jsx';
 
 const websiteSummary = websiteData.map( x => {
     return(
@@ -25,6 +26,7 @@ createRoot(document.getElementById('root')).render(
       <Route path="/" element={<SummaryPage websiteID={websiteData[websiteData.length-1].id} selected="LATEST"/>}/>
       <Route path="/index" element={<SummaryPage websiteID={websiteData[websiteData.length-1].id} selected="LATEST"/>}/>
       <Route path="/websites" element={<WebsitesPage/>}/>
+      <Route path="/about" element={<AboutPage/>}/>
       <Route path="/summary" element={<Navigate to={`/websites/${websiteData[websiteData.length-1].folderDir}/summary`}/>}/>
       <Route path="/documentation" element={<Navigate to={`/websites/${websiteData[websiteData.length-1].folderDir}/documentation`}/>}/>
       {websiteSummary}

@@ -1,4 +1,3 @@
-import './WebsitesGrid.css';
 import websiteData from '../websites/websiteInfo.jsx';
 import WebsiteCard from './WebsiteCard';
 
