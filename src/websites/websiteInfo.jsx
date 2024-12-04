@@ -6,6 +6,8 @@ import reactFacts from '/banners/react-facts.png';
 import reactFacts2 from '/previews/react-facts.jpg';
 import airbnbClone from '/banners/airbnb-clone.png';
 import airbnbClone2 from '/previews/airbnb-clone.jpg';
+import karaokeMachine from '/banners/karaoke-machine.png';
+import karaokeMachine2 from '/previews/karaoke-machine.jpg';
 
 export default [
     {
@@ -92,5 +94,24 @@ export default [
         Another note, I did not realize Vite can only really make single-paged applications. I had to learn another library (React Router) to create multiple pages.
         `,
         frameworks: "React, React Router, Vite"
+    },
+    {
+        id: 5,
+        title: "Karaoke Machine",
+        dateCreated: "TBA",
+        year: 2024,
+        status: "INDEV",
+        banner: karaokeMachine,
+        preview: karaokeMachine2,
+        link: "https://example.com/",
+        git: "https://example.com/",
+        folderDir: "karaoke-machine",
+        description: `This is a side project for me and my friends. I wanted a way to host karaoke nights without having to go out and pay. Karaoke at home is also fine and all, but we can only pass around one device to queue songs. With this, everyone should be able to queue up songs from their own device.
+        
+        This is a long-term project that is currently in development. I am unsure when I'll ever finish it. With that being said, there is no website link to visit.
+
+        Another note, I cannot link to the GitHub page, because my files contain an authorization key to use Google's APIs.
+        `,
+        frameworks: "Axios, React, React Router, Vite, YouTube Data API v3"
     },
 ]
