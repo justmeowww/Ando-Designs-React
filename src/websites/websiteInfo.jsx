@@ -112,6 +112,6 @@ export default [
 
         Another note, I cannot link to the GitHub page, because my files contain an authorization key to use Google's APIs.
         `,
-        frameworks: "Axios, React, React Router, Vite, YouTube Data API v3"
+        frameworks: "Axios, React, ReactPlayer, React Router, Vite, YouTube Data API v3"
     },
 ]
