@@ -8,6 +8,7 @@ export default function WebsitePage() {
         <NavPanel selected="WEBSITES"/>
       </div>
       <div className='right-panel'>
+        <Title title={2025}/>
         <Title title={2024}/>
       </div>
     </>

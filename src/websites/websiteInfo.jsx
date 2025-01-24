@@ -13,7 +13,7 @@ export default [
     {
         id: 0,
         title: "Ando Photography",
-        dateCreated: "2024.09.10",
+        dateCreated: "2024.9.10",
         year: 2024,
         status: "MAINTAINED",
         banner: andoPhotography,
@@ -104,7 +104,7 @@ export default [
         banner: karaokeMachine,
         preview: karaokeMachine2,
         link: "https://example.com/",
-        git: "https://example.com/",
+        git: "",
         folderDir: "karaoke-machine",
         description: `This is a side project for me and my friends. I wanted a way to host karaoke nights without having to go out and pay. Karaoke at home is also fine and all, but we can only pass around one device to queue songs. With this, everyone should be able to queue up songs from their own device.
         
@@ -113,5 +113,24 @@ export default [
         Another note, I cannot link to the GitHub page, because my files contain an authorization key to use Google's APIs.
         `,
         frameworks: "Axios, React, ReactPlayer, React Router, Vite, YouTube Data API v3"
+    },
+    {
+        id: 6,
+        title: "Crawfish Pot & Oyster Bar",
+        dateCreated: "1.1.2025",
+        year: 2025,
+        status: "INDEV",
+        banner: '/banners/crawfish-pot.png',
+        preview: '/previews/crawfish-pot.jpg',
+        link: "https://stunning-swan-018987.netlify.app/",
+        git: "",
+        folderDir: "crawfish-pot-and-oyster",
+        description: `Relaxed, New Orleans-style seafood eatery with Cajun favorites like crawfish, po' boys & oysters.
+
+        This website was created to be used as a menu for customers at the Crawfish Pot & Oyster Bar. It has all the standard features for a restaurant website such as a Home page for featured items, a menu showing everything for order, and a contact page and where to find them.
+
+        Also noted, I took all the pictures for use in this website. As this is a commisioned website, there will not be a GitHub provided.
+        `,
+        frameworks: "React, React Router, Vite"
     },
 ]

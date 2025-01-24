@@ -7,6 +7,8 @@ import AndoDesignsDeprec from "./websites/AndoDesignsDeprec";
 import ReactFacts from "./websites/ReactFacts";
 import AirBnbClone from './websites/AirBnbClone';
 import AndoDesigns from "./websites/AndoDesigns";
+import KaraokeMachine from "./websites/KaraokeMachine";
+import CrawfishPot from "./websites/CrawfishPot";
 
 function docPage(websiteID){
     switch(websiteID) {
@@ -20,6 +22,10 @@ function docPage(websiteID){
             return(<AirBnbClone/>)
         case 4:
             return(<AndoDesigns/>)
+        case 5:
+            return(<KaraokeMachine/>)
+        case 6:
+            return(<CrawfishPot/>)
         default:
             return(<NoDoc/>)
     }
