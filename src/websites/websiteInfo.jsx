@@ -119,7 +119,7 @@ export default [
         title: "Crawfish Pot & Oyster Bar",
         dateCreated: "1.1.2025",
         year: 2025,
-        status: "INDEV",
+        status: "MAINTAINED",
         banner: '/banners/crawfish-pot.png',
         preview: '/previews/crawfish-pot.jpg',
         link: "https://stunning-swan-018987.netlify.app/",
