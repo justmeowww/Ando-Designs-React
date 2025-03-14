@@ -7,6 +7,7 @@ import websiteData from './websites/websiteInfo.jsx';
 import WebsitesPage from './WebsitesPage.jsx';
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router';
 import AboutPage from './AboutPage.jsx';
+import NotFound from './NotFound.jsx';
 
 const websiteSummary = websiteData.map( x => {
     return(
@@ -31,6 +32,7 @@ createRoot(document.getElementById('root')).render(
       <Route path="/documentation" element={<Navigate to={`/websites/${websiteData[websiteData.length-1].folderDir}/documentation`}/>}/>
       {websiteSummary}
       {websiteDocumentation}
+      <Route path='*' element={<NotFound/>}/>
     </Routes>
   </BrowserRouter>,
 )

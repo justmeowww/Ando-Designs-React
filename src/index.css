@@ -367,6 +367,30 @@ code {
   margin-top: 15px;
 }
 
+.not-found {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.not-found h1 {
+  width: 100%;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.not-found p {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.not-found a {
+  color: var(--hdcolor);
+}
+
 @media screen and (max-width:800px) {
   .summary-card {
       width: 400px;
